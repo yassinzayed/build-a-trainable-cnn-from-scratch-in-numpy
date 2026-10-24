@@ -42,8 +42,11 @@ def stable_softmax(logits):
 # Step 6 - one_hot (not yet solved)
 # TODO: implement
 
-# Step 7 - gather_true_class_probs (not yet solved)
-# TODO: implement
+# Step 7 - gather_true_class_probs
+def gather_true_class_probs(probs, labels):
+    # TODO: return probs[i, labels[i]] for every row i as a 1D length-N array.
+    out = np.array([probs[i, labels[i]] for i in range(len(probs))])
+    return out
 
 # Step 8 - cross_entropy_loss (not yet solved)
 # TODO: implement
