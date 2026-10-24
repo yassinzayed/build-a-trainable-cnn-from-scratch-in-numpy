@@ -51,8 +51,10 @@ def stable_softmax(logits):
 # Step 9 - accuracy (not yet solved)
 # TODO: implement
 
-# Step 10 - he_std (not yet solved)
-# TODO: implement
+# Step 10 - he_std
+def he_std(fan_in):
+    # TODO: return the He initialization standard deviation sqrt(2 / fan_in).
+    return np.sqrt(2/fan_in)
 
 # Step 11 - he_init (not yet solved)
 # TODO: implement
