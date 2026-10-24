@@ -20,7 +20,7 @@ python scaffold.py
 - [ ] **8.** cross_entropy_loss
 - [ ] **9.** accuracy
 - [x] **10.** he_std
-- [ ] **11.** he_init
+- [x] **11.** he_init
 - [ ] **12.** init_zero_bias
 - [ ] **13.** pad_2d
 - [ ] **14.** output_spatial_size
