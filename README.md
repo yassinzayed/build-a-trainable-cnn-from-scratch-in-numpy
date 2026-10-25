@@ -18,7 +18,7 @@ python scaffold.py
 - [ ] **6.** one_hot
 - [x] **7.** gather_true_class_probs
 - [ ] **8.** cross_entropy_loss
-- [ ] **9.** accuracy
+- [x] **9.** accuracy
 - [x] **10.** he_std
 - [x] **11.** he_init
 - [x] **12.** init_zero_bias

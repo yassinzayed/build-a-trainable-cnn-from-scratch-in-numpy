@@ -51,8 +51,11 @@ def gather_true_class_probs(probs, labels):
 # Step 8 - cross_entropy_loss (not yet solved)
 # TODO: implement
 
-# Step 9 - accuracy (not yet solved)
-# TODO: implement
+# Step 9 - accuracy
+def accuracy(logits_or_probs, labels):
+    # TODO: return the fraction of rows whose argmax matches the integer label.
+    preds = argmax_rows(logits_or_probs)
+    return (preds == labels).mean()
 
 # Step 10 - he_std
 def he_std(fan_in):
